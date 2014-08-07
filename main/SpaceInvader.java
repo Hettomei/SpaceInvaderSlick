@@ -7,7 +7,7 @@ import org.newdawn.slick.Input;
 import org.newdawn.slick.SlickException;
 
 import controller.GameController;
-import MyTools.Window;
+import tools.Window;
 
 public class SpaceInvader extends BasicGame {
 
