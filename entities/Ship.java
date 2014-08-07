@@ -27,17 +27,17 @@ public class Ship {
     this.speed = 0.5f;
     this.fires = fires;
     this.size = 0.4f;
-    
+
     Transform t = Transform.createScaleTransform(size, size);
     this.shipPoly = AnimShip.getPolygon();
     this.shipPoly = (Polygon) shipPoly.transform(t);
-    
+
     this.shipRec = new Rectangle(0, 0, 170, 343);
     Shape p = shipRec.transform(t);
     this.shipRec = new Rectangle(p.getX(), p.getY(), p.getWidth(), p.getHeight());
     this.shipPoly.setCenterX(shipRec.getCenterX());
     this.shipPoly.setCenterY(shipRec.getCenterY());
-    
+
     this.anim_ship = new AnimShip();
   }
 

@@ -11,9 +11,9 @@ public class GameController {
   private InvaderFires invaderFires;
 
   private long score;
-  
+
   public GameController() {
-    
+
     invaderFires = new InvaderFires();
     shipFires = new ShipFires();
     ship = new Ship(shipFires);
@@ -25,7 +25,7 @@ public class GameController {
     ship.draw(g);
     invaders.draw(g);
     shipFires.draw(g);
-    invaderFires.draw(g); 
+    invaderFires.draw(g);
     g.drawString("Score : " + score, 300, 10);
   }
 

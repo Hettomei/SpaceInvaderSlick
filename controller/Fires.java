@@ -19,7 +19,7 @@ public class Fires {
 
     while (it.hasNext()) {
       it.next().draw(g);
-    }    
+    }
   }
 
   public void update(Invaders invaders, int delta) {

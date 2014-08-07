@@ -43,20 +43,20 @@ public class SpaceInvader extends BasicGame {
     if (i.isKeyDown(Input.KEY_UP)) {
       gc.key_up(delta);
     } else if (i.isKeyDown(Input.KEY_DOWN)) {
-      gc.key_down(delta);  
+      gc.key_down(delta);
     }
 
     if (i.isKeyDown(Input.KEY_RIGHT)) {
-      gc.key_right(delta);  
+      gc.key_right(delta);
     } else if (i.isKeyDown(Input.KEY_LEFT)) {
       gc.key_left(delta);
     }
-    
+
     if (i.isKeyDown(Input.KEY_F)) {
-      gc.key_space();  
+      gc.key_space();
     }
 
-    gc.update(delta);  
+    gc.update(delta);
   }
 
   public void keyPressed(int key, char c) {
@@ -74,7 +74,7 @@ public class SpaceInvader extends BasicGame {
     app.setDisplayMode(Window.WIDTH, Window.HEIGHT, false);
     app.start();
   }
-  
+
   /**
    * @see org.newdawn.slick.BasicGame#mouseClicked(int, int, int, int)
    */

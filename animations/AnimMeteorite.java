@@ -12,7 +12,7 @@ public class AnimMeteorite {
 
   private Animation anim_meteorite;
   private ParticleSystem smoke;
-  
+
   public AnimMeteorite() {
     anim_meteorite = new Animation();
     SpriteSheet sp_fire = null;
@@ -32,14 +32,14 @@ public class AnimMeteorite {
     for (int i = 0; i < 17; i++) {
       anim_meteorite.addFrame(sp_fire.getSprite(i, 6), frame_speed);
     }
-    
+
     try {
       smoke = ParticleIO.loadConfiguredSystem("resources/system.xml");
     } catch (IOException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
     }
-    
+
   }
 
   public void draw(float x, float y, int sizeX, int sizeY) {

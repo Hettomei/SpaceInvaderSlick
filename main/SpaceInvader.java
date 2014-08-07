@@ -41,16 +41,16 @@ public class SpaceInvader extends BasicGame {
     if (i.isKeyDown(Input.KEY_UP)) {
       gc.key_up(delta);
     } else if (i.isKeyDown(Input.KEY_DOWN)) {
-      gc.key_down(delta);  
+      gc.key_down(delta);
     }
 
     if (i.isKeyDown(Input.KEY_RIGHT)) {
-      gc.key_right(delta);  
+      gc.key_right(delta);
     } else if (i.isKeyDown(Input.KEY_LEFT)) {
       gc.key_left(delta);
     }
 
-    gc.update(delta);  
+    gc.update(delta);
   }
 
   public void keyPressed(int key, char c) {

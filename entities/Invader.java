@@ -64,7 +64,7 @@ public class Invader {
     Random r = new Random();
     r.nextInt(2);
     setY(getY() + delta * speed);
-   // setX(getY() + delta * speed);
+    // setX(getY() + delta * speed);
   }
 
   private float getWidth() {
@@ -82,7 +82,7 @@ public class Invader {
   private void setX(float f) {
     invader.setX(f);
   }
-  
+
   public Shape shape() {
     return invader;
   }

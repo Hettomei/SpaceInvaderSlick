@@ -11,7 +11,7 @@ import entities.Ship;
 public class InvaderFires {
 
   public ArrayList<InvaderFire> invader_fires = new ArrayList<InvaderFire>();
-  
+
   public void draw(Graphics g){
     Iterator<InvaderFire> it = invader_fires.iterator();
 
@@ -30,7 +30,7 @@ public class InvaderFires {
         fires_to_remove.add(f);
       }
     }
-    invader_fires.removeAll(fires_to_remove);    
+    invader_fires.removeAll(fires_to_remove);
   }
 
   public void add(float x, float y) {

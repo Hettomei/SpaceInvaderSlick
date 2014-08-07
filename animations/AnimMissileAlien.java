@@ -15,7 +15,7 @@ public class AnimMissileAlien implements Animable {
   private float          size;
 
   public AnimMissileAlien(float width, float height, float size) {
-    
+
     anim_missile = new Animation();
     SpriteSheet sp_fire = null;
     try {

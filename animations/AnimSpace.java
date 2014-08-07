@@ -13,7 +13,7 @@ public class AnimSpace {
 
   private ParticleSystem smoke;
   private Vector2f v = new Vector2f();
-  
+
   public AnimSpace(){
     try {
       smoke = ParticleIO.loadConfiguredSystem("resources/space.xml");
@@ -22,10 +22,10 @@ public class AnimSpace {
     }
     v.x = Window.WIDTH -100;
     v.y = Window.HEIGHT/2;
-      
+
     smoke.setPosition(v.x, v.y);
   }
-  
+
   public void draw() {
     smoke.setPosition(v.x, v.y);
     smoke.render();

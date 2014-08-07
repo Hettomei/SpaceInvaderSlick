@@ -81,6 +81,6 @@ public class Invaders {
   }
 
   public void fire(Invader invader) {
-    invader_fires.add(invader.getX(), invader.center_y());    
+    invader_fires.add(invader.getX(), invader.center_y());
   }
 }
