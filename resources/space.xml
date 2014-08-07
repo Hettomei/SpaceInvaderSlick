@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<system additive="true" points="false">
+<emitter imageName="" name="NewEmitter_1362672572312" renderType="inherit" useAdditive="false" useOriented="false">
+<spawnInterval enabled="true" max="100.0" min="50.0"/>
+<spawnCount enabled="true" max="40.0" min="30.0"/>
+<initialLife enabled="true" max="1000.0" min="1000.0"/>
+<initialSize enabled="true" max="5.0" min="1.0"/>
+<xOffset enabled="true" max="0.0" min="0.0"/>
+<yOffset enabled="true" max="0.0" min="0.0"/>
+<initialDistance enabled="true" max="124.0" min="124.0"/>
+<speed enabled="true" max="128.0" min="128.0"/>
+<length enabled="false" max="-1.0" min="-1.0"/>
+<emitCount enabled="false" max="-1.0" min="-1.0"/>
+<spread type="random" value="360.0"/>
+<angularOffset type="simple" value="0.0"/>
+<growthFactor type="simple" value="5.0"/>
+<gravityFactor type="simple" value="0.0"/>
+<windFactor type="simple" value="-150.0"/>
+<startAlpha type="simple" value="255.0"/>
+<endAlpha type="simple" value="255.0"/>
+<alpha active="false" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="0.1300813" y="160.2459"/>
+<point x="0.36382115" y="37.62295"/>
+<point x="0.41260162" y="224.34425"/>
+<point x="0.703252" y="227.13115"/>
+<point x="0.7195122" y="57.131145"/>
+<point x="1.0" y="76.63934"/>
+<point x="1.0" y="255.0"/>
+</alpha>
+<size active="false" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="0.111788616" y="188.11475"/>
+<point x="0.49796748" y="135.16393"/>
+<point x="0.6768293" y="45.983604"/>
+<point x="0.98373985" y="121.22951"/>
+<point x="1.0" y="255.0"/>
+</size>
+<velocity active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="1.0"/>
+</velocity>
+<scaleY active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="0.5731707" y="0.07650273"/>
+<point x="1.0" y="1.0"/>
+</scaleY>
+<color>
+<step b="1.0" g="1.0" offset="0.0" r="1.0"/>
+<step b="1.0" g="1.0" offset="1.0" r="1.0"/>
+</color>
+</emitter>
+</system>
